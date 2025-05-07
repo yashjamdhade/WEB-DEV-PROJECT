@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yash Vishwas Jamdhade | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    nav {
+      background: #fff;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      border-bottom: 1px solid #ccc;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #2575fc;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.5rem;
+    }
+    .skills span {
+      display: inline-block;
+      background: #e0f0ff;
+      color: #2575fc;
+      margin: 0.3rem;
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    .contact a {
+      display: block;
+      color: #2575fc;
+      text-decoration: none;
+      margin: 0.5rem 0;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://postimage.me/images/2025/05/06/profile89kb.jpg" alt="Yash Jamdhade" />
+    <h1>Yash Vishwas Jamdhade</h1>
+    <p>Aspiring Web Developer | AI Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I am Yash Jamdhade, a 17-year-old Computer Science and Engineering student specializing in Artificial Intelligence and Machine Learning at P.R. Pote College of Engineering and Management. I am passionate about web development and love to create different things that blend logic and design.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>B.Tech in CSE (AI & ML)</strong><br />P.R. Pote College of Engineering and Management<br />2024–2028<br />First Semester Topper</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Google Virtual Internship – Machine Learning</strong>: Gained foundational skills in ML.</li>
+      <li><strong>Eduskill Web Development Course</strong>: Learned full-stack basics and front-end development.</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>C</span>
+      <span>Python</span>
+      <span>Java</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Coming Soon...</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <a href="mailto:yashjamdhade2006@gmail.com">Mail: yashjamdhade2006@gmail.com</a>
+      <a href="tel:+918459881923">Mob: +91 84598 81923</a>
+      <a href="https://www.linkedin.com/in/yash-jamdhade">LinkedIn: yash jamdhade</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Yash Vishwas Jamdhade. All rights reserved.
+  </footer>
+</body>
+</html>
